@@ -1,0 +1,35 @@
+hr {
+    max-width: 960px;
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
+    border-width: 0;
+    border-top: 1px solid var(--neutralShade);
+}
+
+img {
+    height: auto;
+    width: 100%;
+    margin: 2rem;
+}
+
+.full-width {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.full-max-width {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.invert {
+    filter: invert(1);
+}

@@ -1,0 +1,26 @@
+/* Import Paper Components */
+@import url('./base.css');
+@import url('./grid.css');
+@import url('./typography.css');
+@import url('./buttons.css');
+@import url('./forms.css');
+@import url('./lists.css');
+@import url('./code.css');
+@import url('./tables.css');
+@import url('./extras.css');
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+:root {
+    /* Fonts */
+    --mainFont: 'Lato', sans-serif;
+
+    /* Colours */
+    --mainColour: #9B4DCA;
+    --secondaryColour: #D14BE1;
+    --accentColour: #D747AA;
+    --lightShade: #FAFAFA;
+    --neutralShade: #CECECE;
+    --darkShade: #1F1F1F;
+}

@@ -1,0 +1,14 @@
+code {
+    padding: 0.2rem 0.5rem;
+    font-size: 90%;
+    white-space: nowrap;
+    background: var(--lightShade);
+    border: 1px solid var(--neutralShade);
+    border-radius: 4px;
+}
+
+pre > code {
+    display: block;
+    padding: 1rem 1.5rem;
+    white-space: pre;
+}

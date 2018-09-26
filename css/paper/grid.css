@@ -1,0 +1,41 @@
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.container.container-padded {
+    padding: 2rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row-align-top {
+    align-items: flex-start;
+}
+
+.row-align-middle {
+    align-items: center;
+}
+
+.row-align-bottom {
+    align-items: flex-end;
+}
+
+.column {
+    flex-basis: 100%;
+}
+
+@media screen and (min-width: 480px) {
+    .column {
+        flex: 1;
+    }
+}
+
+.column.column-padded {
+    padding: 2rem;
+}
